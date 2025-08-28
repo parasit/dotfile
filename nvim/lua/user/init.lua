@@ -1,0 +1,8 @@
+require("user.set")
+require("user.remap")
+require("user.lazy")
+require("user.lualine")
+require("user.comment")
+--require("user.tabnine")
+require("user.dap")
+require("user.telescope")

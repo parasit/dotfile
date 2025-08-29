@@ -11,10 +11,10 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n", "<leader>vwm", function()
-    require("vim-with-me").StartVimWithMe()
+  require("vim-with-me").StartVimWithMe()
 end)
 vim.keymap.set("n", "<leader>svwm", function()
-    require("vim-with-me").StopVimWithMe()
+  require("vim-with-me").StopVimWithMe()
 end)
 
 -- greatest remap ever
@@ -45,9 +45,9 @@ vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.config/nvim/<CR>");
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 
 
--- local mark = require("harpoon.mark")
+--local mark = require("harpoon.mark")
 -- local ui = require("harpoon.ui")
---
+-- --
 -- vim.keymap.set("n", "<leader>a", mark.add_file)
 -- vim.keymap.set("n", "<C-e>", ui.toggle_quick_menu)
 -- vim.keymap.set("n", "<C-h>", function() ui.nav_file(1) end)

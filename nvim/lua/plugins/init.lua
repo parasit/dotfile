@@ -1,0 +1,7 @@
+require("plugins.telescope")
+require('plugins.mason')
+require('plugins.tokyonight')
+require('plugins.treesitter')
+require('plugins.lualine')
+require('plugins.dap')
+require('plugins.orgmode')
